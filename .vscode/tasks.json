@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "dump env",
+			"type" :"process",
+			"command" : "$env"
+		},
+		{
+			"type": "func",
+			"command": "host start",
+			"problemMatcher": "$func-java-watch",
+			"isBackground": true,
+			"options": {
+				"cwd": "${workspaceFolder}/target/azure-functions/relay-1660583864937"
+			},
+			"dependsOn": "package (functions)"
+		},
+		{
+			"label": "package (functions)",
+			"command": "mvn clean package",
+			"type": "shell",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
