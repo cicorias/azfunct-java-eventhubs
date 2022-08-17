@@ -13,7 +13,7 @@ public class EventHubReceiver {
     @FunctionName("EventHubReceiver")
     public void run(
         @EventHubTrigger(name = "messages",
-        eventHubName = "the-eventhub",
+        eventHubName = "", // use EntityPath in connection string.
         connection = "ehconnection",
         cardinality = Cardinality.MANY)
         List<String> messages,
