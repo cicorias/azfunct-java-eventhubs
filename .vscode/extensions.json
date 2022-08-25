@@ -1,6 +1,7 @@
 {
   "recommendations": [
-    "ms-azuretools.vscode-azurefunctions",
-    "vscjava.vscode-java-debug"
+    "vscjava.vscode-java-debug",
+    "azurite.azurite",
+    "vscjava.vscode-java-pack"
   ]
 }

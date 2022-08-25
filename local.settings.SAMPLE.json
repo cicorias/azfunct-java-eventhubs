@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "bloboutput" : "DefaultEndpointsProtocol=https;AccountName={REPLACEME};AccountKey={REPLACEME};BlobEndpoint=https://{REPLACEME}.blob.core.windows.net/;QueueEndpoint=https://{REPLACEME}.queue.core.windows.net/;TableEndpoint=https://stcicoriasfd4d7a70.table.core.windows.net/;FileEndpoint=https://{REPLACEME}.file.core.windows.net/;",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "eventhubconnection": "Endpoint=sb://{REPLACEME}.servicebus.windows.net/;SharedAccessKeyName=bothways;SharedAccessKey={REPLACEME}",
+    "eventhub" : "devtest",
+    "consumergroup" : "$Default"
+  }
+}

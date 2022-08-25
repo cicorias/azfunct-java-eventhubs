@@ -36,3 +36,15 @@ hs_err_pid*
 local.settings.json
 bin/
 obj/
+
+
+node_modules/
+
+# azurite Azure Storage Emulator
+__blobstorage__/
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
+.azurite/
+
+
+.env

@@ -1,0 +1,22 @@
+{
+  "name": "eh-sender-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc *.ts",
+    "start": "ts-node ./send.ts"
+  },
+  "author": "Shawn Cicoria <github@cicoria.com> (https://cicoria.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/event-hubs": "^5.8.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.7.13",
+    "ts-node": "^10.9.1"
+  }
+}

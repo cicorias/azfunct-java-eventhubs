@@ -5,5 +5,7 @@
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "package (functions)",
-    "azureFunctions.templateFilter": "All"
+    "azureFunctions.templateFilter": "All",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "azurite.location": "${workspaceFolder}/.azurite/"
 }
