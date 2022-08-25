@@ -7,5 +7,5 @@
     "azureFunctions.preDeployTask": "package (functions)",
     "azureFunctions.templateFilter": "All",
     "java.configuration.updateBuildConfiguration": "interactive",
-    "azurite.location": "${workspaceFolder}/.azurite/"
+    "azurite.location": "./.azurite/"
 }
