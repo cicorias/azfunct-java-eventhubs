@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Attach to Java Functions",
             "type": "java",
@@ -9,6 +8,14 @@
             "hostName": "127.0.0.1",
             "port": 5005,
             "preLaunchTask": "func: host start"
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/tools/eh-sender-ts/send.ts",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": ["${workspaceFolder}/tools/eh-sender-ts/out/**/*.js"]
+          }
     ]
 }
